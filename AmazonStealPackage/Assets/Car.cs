@@ -23,7 +23,7 @@ public class Car : MonoBehaviour
         Debug.Log("dropped box active");
         float ranNum = Random.Range(0f, 1f);
         Debug.Log("ranNum= " + ranNum);
-        if (ranNum > 0.4f) {
+        if (ranNum > 0.7f) {
             Debug.Log("i throw box");
             Instantiate(box, boxCreation.position, Quaternion.identity);
             
