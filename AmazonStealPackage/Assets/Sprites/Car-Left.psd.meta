@@ -1,10 +1,7 @@
 fileFormatVersion: 2
-guid: 9f61073e895dbf34ebab162e8644fe71
+guid: 6c9c35990ae24714baaf056feddb744e
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -9029268287826542514
-    second: Untitled-Artwork 1 (1)_0
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -44,12 +41,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 1500
+  spritePixelsToUnits: 400
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -104,28 +101,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: Untitled-Artwork 1 (1)_0
-      rect:
-        serializedVersion: 2
-        x: 596
-        y: 422
-        width: 952
-        height: 1327
-      alignment: 9
-      pivot: {x: 0.46348855, y: 0.20837711}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e404662d45891b280800000000000000
-      internalID: -9029268287826542514
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
