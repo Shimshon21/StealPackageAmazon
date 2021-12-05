@@ -30,4 +30,14 @@ public class Player : MonoBehaviour
         
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Debug.Log(collision.gameObject);
+        if (collision.gameObject.tag == "SupBox")
+        {
+            Debug.Log("Score added");
+            Destroy(collision.gameObject);
+        }
+    }
+
 }

@@ -42,6 +42,7 @@ GameObject:
   - component: {fileID: 7677118964906770661}
   - component: {fileID: 931520079}
   - component: {fileID: 931520080}
+  - component: {fileID: 574318238026353591}
   m_Layer: 0
   m_Name: Car-Left
   m_TagString: Untagged
@@ -103,7 +104,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 6c9c35990ae24714baaf056feddb744e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -149,3 +150,30 @@ MonoBehaviour:
   box: {fileID: 2127545774044227699, guid: 6ce2a5dc68fac764f94da8956883e0b9, type: 3}
   boxCreation: {fileID: 574172327}
   oddsForBox: 0.5
+--- !u!68 &574318238026353591
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4060914360908923307}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -1.2162194, y: 0.35172796}
+  - {x: -1.3598022, y: -0.55238867}
+  - {x: 0.22377491, y: -1.4159303}
+  - {x: 1.2953472, y: -0.79248047}
+  - {x: 1.2662821, y: 0.32265234}
+  - {x: 0.029314041, y: 1.0456295}
+  - {x: -1.227839, y: 0.36976528}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0

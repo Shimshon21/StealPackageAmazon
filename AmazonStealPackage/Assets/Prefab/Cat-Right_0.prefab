@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3237209863371504175}
   - component: {fileID: 3112268057657039970}
   - component: {fileID: 323562031}
+  - component: {fileID: 8417304215894986368}
   m_Layer: 0
   m_Name: Cat-Right_0
   m_TagString: Untagged
@@ -119,6 +120,37 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!68 &8417304215894986368
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3237209863371504174}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -1.4042898, y: 0.6370778}
+  - {x: -1.4725759, y: -0.38366652}
+  - {x: -0.2180947, y: -1.1111827}
+  - {x: 1.1382489, y: -0.2800386}
+  - {x: 1.1503413, y: -0.09044957}
+  - {x: 1.1526386, y: 0.01172471}
+  - {x: 1.127337, y: 0.36591315}
+  - {x: 0.8139684, y: 0.8378068}
+  - {x: -0.09264052, y: 1.3693644}
+  - {x: -0.17582214, y: 1.3849313}
+  - {x: -1.39589, y: 0.64448595}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &4789892938965395103
 GameObject:
   m_ObjectHideFlags: 0
