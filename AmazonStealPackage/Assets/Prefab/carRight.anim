@@ -311,13 +311,6 @@ AnimationClip:
   m_HasGenericRootTransform: 1
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 0.15
-    functionName: BoxDropped
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
   - time: 0.3
     functionName: BoxDropped
     data: 
@@ -332,8 +325,15 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 1.2
-    functionName: DestoyCar
+  - time: 0.85
+    functionName: BoxDropped
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.85
+    functionName: Honk
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

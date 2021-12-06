@@ -4,21 +4,6 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class scene_manager : MonoBehaviour
 {
-    private static scene_manager _instance;
-    public static scene_manager Instance { get { return _instance; } }
-
-
-    private void Awake()
-    {
-        if (_instance != null && _instance != this)
-        {
-            Destroy(this.gameObject);
-        }
-        else
-        {
-            _instance = this;
-        }
-    }
 
     int MENU_IND = 0, LEVEL_IND = 1, END_IND = 2;
     int scene_ind;

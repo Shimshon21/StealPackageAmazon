@@ -8,8 +8,12 @@ public class Player : MonoBehaviour
 {
 
     private Rigidbody2D rigidbody2D;
+    Box heldBox;
     [SerializeField] float speed;
+    [SerializeField] GameObject gameOver;
     private PlayerInputActions inputActions;
+
+    public Box HeldBox { get; set; }
 
 
     // Start is called before the first frame update
@@ -27,17 +31,31 @@ public class Player : MonoBehaviour
         Vector2 inputVector = inputActions.Player.Movment.ReadValue<Vector2>();
 
         rigidbody2D.velocity = inputVector * speed;
-        
+
+    }
+    public void NowCarry(Box box)
+    {
+        heldBox = box;
+        Debug.Log("I'm now carry");
+        gameObject.tag = "carry";
+        Debug.Log("now carry no problem");
+    }
+    public void NowEmpty()
+    {
+        gameObject.tag = "empty";
+    }
+    public void destroyBox()
+    {
+        FindObjectOfType<ScoreCounter>().AddScore();
+        NowEmpty();
+        Destroy(heldBox.gameObject);
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    public void PlayerCaught()
     {
-        Debug.Log(collision.gameObject);
-        if (collision.gameObject.tag == "SupBox")
-        {
-            Debug.Log("Score added");
-            Destroy(collision.gameObject);
-        }
+        Time.timeScale = 0f;
+        Instantiate(gameOver, Vector2.zero, Quaternion.identity);
     }
+
 
 }
